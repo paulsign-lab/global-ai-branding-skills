@@ -46,7 +46,7 @@
 > 그냥 `skills/`에 두면 인식되지 않으니, 반드시 `.claude/skills/` 위치로 넣어주세요.
 
 **방법 A (가장 쉬움 — Claude Code에게 맡기기) ⭐**
-Claude Code를 실행한 상태에서, 아래 한 문장을 그대로 입력하세요. (URL만 본인 레포 주소로)
+Claude Code를 실행한 상태에서, 아래 한 문장을 그대로 입력하세요. 
 ```
 https://github.com/paulsign-lab/global-ai-branding-skills 이 레포를 클론하고,
 안의 skills 폴더를 .claude/skills/ 에 설치해줘.
