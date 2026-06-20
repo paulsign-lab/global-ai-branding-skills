@@ -54,7 +54,8 @@
    mkdir -p ~/branding-workspace/.claude/skills
    cp -R 내려받은폴더/skills/* ~/branding-workspace/.claude/skills/
    ```
-   (모든 수강생에게 항상 쓰게 하려면 `~/.claude/skills/` 로 복사하면 전역 적용됩니다.)
+   - 위처럼 작업 폴더 안의 `.claude/skills/`에 두면 **그 폴더에서만** 스킬이 작동합니다.
+   - 내 컴퓨터의 **모든 폴더에서** 항상 쓰고 싶으면 홈 폴더의 `~/.claude/skills/`로 복사하세요(전역 적용).
 
 **방법 B (git 사용):**
 ```
