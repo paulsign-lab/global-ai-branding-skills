@@ -1,0 +1,16 @@
+{
+  "_README": "이 파일을 작업 폴더에 두고 파일명을 '.mcp.json'으로 바꾸세요. APIFY_TOKEN은 환경변수로 설정합니다(INSTALL.md STEP 3-2 참조). Semrush는 /mcp에서 Authenticate로 로그인합니다.",
+  "mcpServers": {
+    "semrush": {
+      "type": "http",
+      "url": "https://mcp.semrush.com/v1/mcp"
+    },
+    "apify": {
+      "type": "http",
+      "url": "https://mcp.apify.com",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_TOKEN}"
+      }
+    }
+  }
+}

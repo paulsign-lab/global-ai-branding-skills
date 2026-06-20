@@ -1,0 +1,18 @@
+# 비밀값 — 절대 커밋 금지
+.env
+.env.*
+*.key
+*.token
+
+# 로컬 MCP 설정(토큰 포함 가능) — 템플릿(mcp.json.template)만 공유
+.mcp.json
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 산출물(원하면 주석 해제)
+# outputs/
+# *.xlsx
