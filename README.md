@@ -7,6 +7,8 @@
 > 워크플로우를 직접 편집(Opal)하셔도 좋고, 이 스킬로 편하게 결과물을 받아보셔도 됩니다.
 > **AI가 반복 작업을 처리하고, 사람은 본질적 판단과 전략 설계에 집중합니다.**
 
+**저장소:** https://github.com/paulsign-lab/global-ai-branding-skills
+
 ## 빠른 시작
 1. **설치 매뉴얼**을 따라 하세요 → [`INSTALL.md`](INSTALL.md)
 2. MCP 연결: `.mcp.json` 템플릿 사용 (Semrush + Apify Reddit)

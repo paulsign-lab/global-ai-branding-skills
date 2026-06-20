@@ -38,16 +38,24 @@
    claude
    ```
 
-> 🧷 *강사 메모: Antigravity의 정확한 메뉴·화면은 실제 버전 기준 스크린샷으로 보완 예정.*
-
 ---
 
 ## STEP 2 — GitHub에서 스킬 내려받기
 
 > ⚠️ **핵심:** Claude Code는 스킬을 **`.claude/skills/`** 폴더에서 자동으로 찾습니다.
-> 그냥 `skills/`에 두면 인식되지 않으니, 아래처럼 `.claude/skills/` 위치로 넣어주세요.
+> 그냥 `skills/`에 두면 인식되지 않으니, 반드시 `.claude/skills/` 위치로 넣어주세요.
 
-**방법 A (간단 — 다운로드):**
+**방법 A (가장 쉬움 — Claude Code에게 맡기기) ⭐**
+Claude Code를 실행한 상태에서, 아래 한 문장을 그대로 입력하세요. (URL만 본인 레포 주소로)
+```
+https://github.com/paulsign-lab/global-ai-branding-skills 이 레포를 클론하고,
+안의 skills 폴더를 .claude/skills/ 에 설치해줘.
+그리고 mcp.json.template 을 .mcp.json 으로 복사해줘.
+```
+그러면 Claude Code가 `git clone`과 복사를 알아서 실행합니다.
+설치 후 스킬이 목록에 뜨도록 **Claude Code를 한 번 재시작**하세요. 이게 가장 간단합니다.
+
+**방법 B (다운로드 — 직접 복사):**
 1. 이 저장소 페이지에서 **Code → Download ZIP**.
 2. 압축을 풀고, `skills/` **안의 스킬 폴더들**을 작업 폴더의 **`.claude/skills/`** 아래로 복사합니다.
    ```
@@ -57,10 +65,10 @@
    - 위처럼 작업 폴더 안의 `.claude/skills/`에 두면 **그 폴더에서만** 스킬이 작동합니다.
    - 내 컴퓨터의 **모든 폴더에서** 항상 쓰고 싶으면 홈 폴더의 `~/.claude/skills/`로 복사하세요(전역 적용).
 
-**방법 B (git 사용):**
+**방법 C (git 직접):**
 ```
 cd ~/branding-workspace
-git clone https://github.com/[your-id]/global-ai-branding-skills.git
+git clone https://github.com/paulsign-lab/global-ai-branding-skills.git
 mkdir -p .claude/skills
 cp -R global-ai-branding-skills/skills/* .claude/skills/
 cp global-ai-branding-skills/mcp.json.template ./.mcp.json
